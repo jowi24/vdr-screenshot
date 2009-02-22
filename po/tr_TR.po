@@ -1,0 +1,58 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Oktay Yolgecen <oktay_73@yahoo.de>, 2007
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <vdr@joachim-wilke.de>\n"
+"POT-Creation-Date: 2008-03-08 22:36+0100\n"
+"PO-Revision-Date: 2008-03-08 22:17+0100\n"
+"Last-Translator: Oktay Yolgecen <oktay_73@yahoo.de>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-9\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Takes screenshots"
+msgstr "Ekran resimi çeker"
+
+msgid "Screenshot"
+msgstr "Ekran resimi"
+
+msgid "OK - Images saved."
+msgstr "Tamam - Resimler kayýtlandý"
+
+msgid "Error"
+msgstr "Hata"
+
+msgid "Image directory"
+msgstr "Resim klasörü"
+
+msgid "Fileformat"
+msgstr "Belge biçimi"
+
+msgid "Image quality (1-100)"
+msgstr "Resim kalitesi"
+
+msgid "Image width (Pixel)"
+msgstr "Resim geniþliði"
+
+msgid "Image height (Pixel)"
+msgstr "Resim yüksekliði"
+
+msgid "No. of pictures to take"
+msgstr "Çekilecek resimlerin sayýsý"
+
+msgid "Hide mainmenu entry"
+msgstr "na menüde sakla"
+
+msgid "Show Date"
+msgstr "Tarihi göster"
+
+msgid "Enable delayed shooting"
+msgstr "Gecikmeli çekimi aktiflestir"
+
+msgid "Delayed shooting active."
+msgstr "Gecikmeli çekim aktif"

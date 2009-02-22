@@ -1,0 +1,112 @@
+VDR Plugin 'screenshot' Revision History
+----------------------------------------
+
+2004-02-23: Version 0.0.1
+
+- Initial revision.
+
+2004-02-25: Version 0.0.2
+
+- added path-option to set your own image directory
+- added quality-option to control the image quality used when saving
+- added german translation
+- the osd is now hidden when taking a screenshot
+
+2004-02-26: Version 0.0.3
+
+- added fileformat-option to select between jpg and pnm files
+- OK / error message is displayed on osd after taking the screenshots
+- multiple screenshots with one keypress are now possible
+- fixed quality-option setting, to allow only values between 1 and 100
+
+2004-03-07: Version 0.0.4
+
+- finnish translation (provided by Rolf Ahrenberg)
+- italian translation (provided by Sean Carlos)
+- changed default directory to "/tmp", as this directory should exist and
+  have proper write permissions on most systems
+- fixed translation of mainmenu entry (thanks to Rolf Ahrenberg)
+- changed OK / error message display, to avoid a possible crash
+- no longer using seperate thread for taking pictures
+
+2004-06-09: Version 0.0.5
+
+- fixed naming of filenames, month is now correct (thanks to Andreas Brachold)
+- fixed translation of Error-Message
+- added option to hide the main menu entry (you have to patch vdr, to use this
+- see supplied patch-keymacros-for-hidden-plugins.diff)
+- added support for vdr >= 1.3.7 (thanks to Andreas Brachold for providing a
+  patch)
+
+2005-02-23: Version 0.0.6
+
+- the title of the current transmission is now used for the naming of screenshot
+  files new naming scheme: <transmission name>-<date>-<image number>.[jpg|pnm]
+- more verbose osd status messages
+- extended README-file
+
+2005-10-12: Version 0.0.7
+
+- fixed translation of message "images saved" (hint from several people ;-)
+- image resolution can now be set-up in the plugins settings menu 
+  (suggested by Olaf Henkel)
+- removed unneccessary include of lirc.h
+- now removing '/' from <transmission name> to avoid 
+  "directory not found"-messages
+- support for vdr-1.2.6 (patch provided by Lutz Bender)
+- now translating filenames that caused problems on FAT-systems 
+  (again thanks to Lutz)
+- with vdr >= 1.3.32 patches/keymacros-for-hidden-plugins.diff is no longer
+  needed
+
+2006-03-07: Version 0.0.8
+- adapted to 1.3.38 (thanks to Hulk)
+- fixed some translations in the settings menu
+
+2006-03-12: Version 0.0.9
+- spanish and catalan translation (provided by Albert Espín)
+- included a patch by Michael Maucher to hide the menu when using the main menu
+  entry of the plugin
+- added -fPIC in the makefile (suggested by Thomas Günther)
+- code cleanup in i18n.c (found by Thomas Günther)
+
+2006-04-17: Version 0.0.10
+- finnish translation update (provided by Rolf Ahrenberg)
+- to hide the main menu it is no longer necessary to patch core vdr 
+  (patch provided by Michael Maucher)
+- new config option to show date and time in the screenshot 
+  (thx to Michael Maucher)
+- fixed a bug (wrong file naming) caused by this patch
+- added a remark in the readme file (suggested by Thomas Günther)
+
+2006-05-30: Version 0.0.11
+- fixed translation of "Show Date" (thx to Elchi)
+- adapted Makefile to changes in vdr-1.3.47, regarding DVBDIR and APIVERSION
+- changed "make dist" to produce *.tar.bz2 archives 
+  (suggested by Thomas Günther)
+- now really fixed the bug introduced with "show date" causing wrong file naming
+- fixed crash when enabling "Show Date" and disabling "Hide Menu" 
+  (thx to Elchi for reporting and Michael Maucher for fixing)
+- introducing delayed snapshot, which can be enabled in the plugin-settings:
+  When selecting "Screenshot" in the main menu (or pressing the corresponding
+  key on your remote), the plugin waits for you to press the Mute-key twice 
+  and then takes the screenshot(s). This way, screenshots of arbitrary osd 
+  constellations can be taken. Till now this was not possible, because pressing 
+  the assigned remote-button for Screenshot causes the osd to be closed.
+- screenshots of osd menus are now named like the menu's title, not like the
+  current transmission behind
+- reestablished backward-compatability with older vdr-1.3.* 
+  (reported by Thomas Günther)
+- various code cleanups and restructurations
+
+2008-: Version 0.0.12
+- removed compatibility code for old development versions (VDR 1.3.x)
+- updated italian translation (provided by Diego)
+- added turkish translation (provided by Oktay Yolgecen)
+- added support for gettext translation
+  (VDR >= 1.5.7 is now the minmal requirement for this plugin)
+- rearranged targets in the makefile
+  according to a discussion in the VDR mailing list
+- new makefile target "srcdoc" to generate source code documentation
+- Improved the 'i18n' target in the Makefile to avoid unnecessary work as suggested by
+  vdr-1.5.11

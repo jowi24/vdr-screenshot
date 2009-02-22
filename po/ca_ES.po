@@ -1,0 +1,60 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Marc Rovira Vall <tm05462@salleURL.edu>, 2003
+# Ramon Roca <ramon.roca@xcombo.com>, 2003
+# Jordi Vil� <jvila@tinet.org>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <vdr@joachim-wilke.de>\n"
+"POT-Creation-Date: 2008-03-08 22:36+0100\n"
+"PO-Revision-Date: 2008-03-08 22:17+0100\n"
+"Last-Translator: Jordi Vil� <jvila@tinet.org>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Takes screenshots"
+msgstr "Veure Imatges"
+
+msgid "Screenshot"
+msgstr "Captures"
+
+msgid "OK - Images saved."
+msgstr "OK - Imatges salvades"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Image directory"
+msgstr "Directori d'imatges"
+
+msgid "Fileformat"
+msgstr "Format imatge"
+
+msgid "Image quality (1-100)"
+msgstr "Qualitat d'imatge (1-100)"
+
+msgid "Image width (Pixel)"
+msgstr "Amplada imatge (pixels)"
+
+msgid "Image height (Pixel)"
+msgstr "Alçada imatge"
+
+msgid "No. of pictures to take"
+msgstr "Nombre d'imatges per afagar"
+
+msgid "Hide mainmenu entry"
+msgstr "Ocultar entrada al menu"
+
+msgid "Show Date"
+msgstr ""
+
+msgid "Enable delayed shooting"
+msgstr ""
+
+msgid "Delayed shooting active."
+msgstr ""
