@@ -110,3 +110,5 @@ VDR Plugin 'screenshot' Revision History
 - new makefile target "srcdoc" to generate source code documentation
 - Improved the 'i18n' target in the Makefile to avoid unnecessary work as suggested by
   vdr-1.5.11
+- removed some old code from Makefile
+  
