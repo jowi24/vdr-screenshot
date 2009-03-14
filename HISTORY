@@ -99,7 +99,7 @@ VDR Plugin 'screenshot' Revision History
   (reported by Thomas Günther)
 - various code cleanups and restructurations
 
-2008-: Version 0.0.12
+2009-03-14: Version 0.0.12
 - removed compatibility code for old development versions (VDR 1.3.x)
 - updated italian translation (provided by Diego)
 - added turkish translation (provided by Oktay Yolgecen)
@@ -110,3 +110,5 @@ VDR Plugin 'screenshot' Revision History
 - new makefile target "srcdoc" to generate source code documentation
 - Improved the 'i18n' target in the Makefile to avoid unnecessary work as suggested by
   vdr-1.5.11
+- removed some old code from Makefile
+  
