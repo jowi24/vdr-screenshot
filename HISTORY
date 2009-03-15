@@ -111,4 +111,8 @@ VDR Plugin 'screenshot' Revision History
 - Improved the 'i18n' target in the Makefile to avoid unnecessary work as suggested by
   vdr-1.5.11
 - removed some old code from Makefile
+
+2009-03-15: Version 0.0.13
+- fixed Makefile to create a correct named plugin library 
+  (reported by Tobias Grimm)
   

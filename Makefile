@@ -87,7 +87,7 @@ i18n: $(I18Nmsgs)
 ### Targets:
 
 all: libvdr-$(PLUGIN).so i18n
-	@cp $@ $(LIBDIR)/$@.$(APIVERSION)
+	@cp $< $(LIBDIR)/$<.$(APIVERSION)
 
 libvdr-$(PLUGIN).so: $(OBJS)
 	$(CXX) $(CXXFLAGS) -shared $(OBJS) -o $@
