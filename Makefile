@@ -28,12 +28,7 @@ TMPDIR = /tmp
 -include $(VDRDIR)/Make.config
 
 ### The version number of VDR (taken from VDR's "config.h"):
-
-VDRVERSION = $(shell grep 'define VDRVERSION ' $(VDRDIR)/config.h | awk '{ print $$3 }' | sed -e 's/"//g')
-APIVERSION = $(shell grep 'define APIVERSION ' $(VDRDIR)/config.h | awk '{ print $$3 }' | sed -e 's/"//g')
-ifeq ($(strip $(APIVERSION)),)
-  APIVERSION = $(VDRVERSION)
-endif
+APIVERSION = $(shell sed -ne '/define APIVERSION/s/^.*"\(.*\)".*$$/\1/p' $(VDRDIR)/config.h)
 
 ### The name of the distribution archive:
 
@@ -92,10 +87,10 @@ i18n: $(I18Nmsgs)
 ### Targets:
 
 all: libvdr-$(PLUGIN).so i18n
+	@cp $< $(LIBDIR)/$<.$(APIVERSION)
 
 libvdr-$(PLUGIN).so: $(OBJS)
 	$(CXX) $(CXXFLAGS) -shared $(OBJS) -o $@
-	@cp $@ $(LIBDIR)/$@.$(APIVERSION)
 
 dist: clean
 	@-rm -rf $(TMPDIR)/$(ARCHIVE)
