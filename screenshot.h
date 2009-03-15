@@ -7,11 +7,11 @@
 
 #ifndef _SCREENSHOT__H
 #define _SCREENSHOT__H
- 
+
 #include <vdr/plugin.h>
 #include <vdr/status.h>
 
-static const char *VERSION        = "0.0.12";
+static const char *VERSION        = "0.0.13";
 static const char *DESCRIPTION    = "Takes screenshots";
 static const char *MAINMENUENTRY  = "Screenshot";
 
@@ -42,7 +42,7 @@ private:
   virtual void SetVolume(int Volume, bool Absolute);
   virtual void OsdTitle(const char *Title);
   virtual void OsdClear();
-				  
+
 public:
   cPluginScreenshot(void);
   virtual ~cPluginScreenshot();
@@ -64,7 +64,7 @@ private:
 public:
   virtual void Action(void);
 };
-  
+
 class cMenuSetupScreenshot : public cMenuSetupPage {
 private:
   char sNewPath[100];

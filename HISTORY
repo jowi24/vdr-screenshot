@@ -114,5 +114,5 @@ VDR Plugin 'screenshot' Revision History
 
 2009-03-15: Version 0.0.13
 - fixed Makefile to create a correct named plugin library 
-  (reported by Tobias Grimm)
+  (patch provided by Tobias Grimm)
   
