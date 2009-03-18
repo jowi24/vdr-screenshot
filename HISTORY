@@ -118,3 +118,6 @@ VDR Plugin 'screenshot' Revision History
 
 2009: Version 0.0.14
 - updated italian translation (provided by Diego Pierotto)
+- fixed Makefile to prevent inclusion of svn meta-data in dist files
+  (thanks again to Tobias Grimm)
+  
