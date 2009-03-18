@@ -11,7 +11,7 @@
 #include <vdr/plugin.h>
 #include <vdr/status.h>
 
-static const char *VERSION        = "0.0.13";
+static const char *VERSION        = "0.0.14";
 static const char *DESCRIPTION    = "Takes screenshots";
 static const char *MAINMENUENTRY  = "Screenshot";
 

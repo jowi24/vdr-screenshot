@@ -101,7 +101,7 @@ VDR Plugin 'screenshot' Revision History
 
 2009-03-14: Version 0.0.12
 - removed compatibility code for old development versions (VDR 1.3.x)
-- updated italian translation (provided by Diego)
+- updated italian translation (provided by Diego Pierotto)
 - added turkish translation (provided by Oktay Yolgecen)
 - added support for gettext translation
   (VDR >= 1.5.7 is now the minmal requirement for this plugin)
@@ -115,4 +115,6 @@ VDR Plugin 'screenshot' Revision History
 2009-03-15: Version 0.0.13
 - fixed Makefile to create a correct named plugin library 
   (patch provided by Tobias Grimm)
-  
+
+2009: Version 0.0.14
+- updated italian translation (provided by Diego Pierotto)
