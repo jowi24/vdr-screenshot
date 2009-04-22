@@ -1,10 +1,37 @@
-screenshot.o: screenshot.c screenshot.h ../vdr/plugin.h ../vdr/i18n.h \
-  ../vdr/tools.h ../vdr/menuitems.h ../vdr/osdbase.h ../vdr/config.h \
-  ../vdr/font.h ../vdr/osd.h ../vdr/skins.h ../vdr/channels.h \
-  ../vdr/sources.h ../vdr/thread.h ../vdr/epg.h ../vdr/keys.h \
-  ../vdr/recording.h ../vdr/timers.h ../vdr/themes.h ../vdr/status.h \
-  ../vdr/device.h ../vdr/ci.h ../vdr/dvbsubtitle.h ../vdr/eit.h \
-  ../vdr/filter.h ../vdr/nit.h ../vdr/pat.h ../vdr/ringbuffer.h \
-  ../vdr/sdt.h ../vdr/sections.h ../vdr/spu.h ../vdr/player.h \
-  ../vdr/interface.h ../vdr/remote.h ../vdr/svdrp.h ../vdr/recording.h \
-  ../vdr/skins.h
+screenshot.o: screenshot.c screenshot.h \
+  /home/joachim/workspace/vdr/include/vdr/plugin.h \
+  /home/joachim/workspace/vdr/include/vdr/i18n.h \
+  /home/joachim/workspace/vdr/include/vdr/tools.h \
+  /home/joachim/workspace/vdr/include/vdr/menuitems.h \
+  /home/joachim/workspace/vdr/include/vdr/osdbase.h \
+  /home/joachim/workspace/vdr/include/vdr/config.h \
+  /home/joachim/workspace/vdr/include/vdr/font.h \
+  /home/joachim/workspace/vdr/include/vdr/osd.h \
+  /home/joachim/workspace/vdr/include/vdr/skins.h \
+  /home/joachim/workspace/vdr/include/vdr/channels.h \
+  /home/joachim/workspace/vdr/include/vdr/sources.h \
+  /home/joachim/workspace/vdr/include/vdr/thread.h \
+  /home/joachim/workspace/vdr/include/vdr/epg.h \
+  /home/joachim/workspace/vdr/include/vdr/keys.h \
+  /home/joachim/workspace/vdr/include/vdr/recording.h \
+  /home/joachim/workspace/vdr/include/vdr/timers.h \
+  /home/joachim/workspace/vdr/include/vdr/themes.h \
+  /home/joachim/workspace/vdr/include/vdr/status.h \
+  /home/joachim/workspace/vdr/include/vdr/device.h \
+  /home/joachim/workspace/vdr/include/vdr/ci.h \
+  /home/joachim/workspace/vdr/include/vdr/dvbsubtitle.h \
+  /home/joachim/workspace/vdr/include/vdr/eit.h \
+  /home/joachim/workspace/vdr/include/vdr/filter.h \
+  /home/joachim/workspace/vdr/include/vdr/nit.h \
+  /home/joachim/workspace/vdr/include/vdr/pat.h \
+  /home/joachim/workspace/vdr/include/vdr/remux.h \
+  /home/joachim/workspace/vdr/include/vdr/ringbuffer.h \
+  /home/joachim/workspace/vdr/include/vdr/sdt.h \
+  /home/joachim/workspace/vdr/include/vdr/sections.h \
+  /home/joachim/workspace/vdr/include/vdr/spu.h \
+  /home/joachim/workspace/vdr/include/vdr/player.h \
+  /home/joachim/workspace/vdr/include/vdr/interface.h \
+  /home/joachim/workspace/vdr/include/vdr/remote.h \
+  /home/joachim/workspace/vdr/include/vdr/svdrp.h \
+  /home/joachim/workspace/vdr/include/vdr/recording.h \
+  /home/joachim/workspace/vdr/include/vdr/skins.h

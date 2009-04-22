@@ -19,8 +19,8 @@ CXXFLAGS ?= -fPIC -O2 -Wall -Woverloaded-virtual
 
 ### The directory environment:
 
-VDRDIR = ../../..
-LIBDIR = ../../lib
+VDRDIR ?= ../../..
+LIBDIR = $(VDRDIR)/PLUGINS/lib
 TMPDIR = /tmp
 
 ### Allow user defined options to overwrite defaults:
@@ -96,7 +96,7 @@ dist: clean
 	@-rm -rf $(TMPDIR)/$(ARCHIVE)
 	@mkdir $(TMPDIR)/$(ARCHIVE)
 	@cp -a * $(TMPDIR)/$(ARCHIVE)
-	@tar cjf $(PACKAGE).tar.bz2 --exclude=.svn -C $(TMPDIR) $(ARCHIVE)
+	@tar cjf $(PACKAGE).tar.bz2 --exclude=.* -C $(TMPDIR) $(ARCHIVE)
 	@-rm -rf $(TMPDIR)/$(ARCHIVE)
 	@echo Distribution package created as $(PACKAGE).tar.bz2
 
