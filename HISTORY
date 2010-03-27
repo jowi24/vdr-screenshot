@@ -120,4 +120,6 @@ VDR Plugin 'screenshot' Revision History
 - updated italian translation (provided by Diego Pierotto)
 - fixed Makefile to prevent inclusion of svn meta-data in dist files
   (thanks again to Tobias Grimm)
+- adapted Makefile to VDR >= 1.7.13
+
   
