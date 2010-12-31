@@ -1,3 +1,3 @@
-#Sat Mar 27 16:58:32 CET 2010
+#Fri Dec 31 14:18:08 CET 2010
 eclipse.preferences.version=1
-environment/project/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.586203391=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<environment append\="true" appendContributed\="true">\n<variable delimiter\=";" name\="DVBDIR" operation\="replace" value\="/usr/local/src/v4l-dvb"/>\n<variable delimiter\=";" name\="VDRDIR" operation\="append" value\="${workspace_loc}/vdr"/>\n</environment>\n
+environment/project/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.586203391=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<environment append\="true" appendContributed\="true">\n<variable delimiter\="\:" name\="VDRDIR" operation\="append" value\="${workspace_loc}/vdr"/>\n</environment>\n
