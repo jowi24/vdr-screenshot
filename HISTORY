@@ -116,10 +116,11 @@ VDR Plugin 'screenshot' Revision History
 - fixed Makefile to create a correct named plugin library 
   (patch provided by Tobias Grimm)
 
-2009: Version 0.0.14
+2012-05-13: Version 0.0.14
 - updated italian translation (provided by Diego Pierotto)
 - fixed Makefile to prevent inclusion of svn meta-data in dist files
   (thanks again to Tobias Grimm)
 - adapted Makefile to VDR >= 1.7.13
+- fixed COPYING (reported by Martin Gansser)
 
   
