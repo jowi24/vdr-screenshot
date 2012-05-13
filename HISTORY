@@ -122,5 +122,5 @@ VDR Plugin 'screenshot' Revision History
   (thanks again to Tobias Grimm)
 - adapted Makefile to VDR >= 1.7.13
 - fixed COPYING (reported by Martin Gansser)
-
+- fixed compiler warnings
   

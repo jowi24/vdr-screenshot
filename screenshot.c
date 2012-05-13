@@ -292,7 +292,7 @@ void cPluginScreenshot::OsdProgramme(time_t PresentTime, const char *PresentTitl
 
 void cPluginScreenshot::SetVolume(int Volume, bool Absolute) {
   if (delayActive) {
-    if (currentVolume == 0 && Volume > 0 || currentVolume > 0 && Volume == 0)
+    if ((currentVolume == 0 && Volume > 0) || (currentVolume > 0 && Volume == 0))
       muteCounter++;
     if (muteCounter == 2) {
       delayActive = false;
