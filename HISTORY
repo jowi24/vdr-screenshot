@@ -124,3 +124,7 @@ VDR Plugin 'screenshot' Revision History
 - fixed COPYING (reported by Martin Gansser)
 - fixed compiler warnings
   
+: Version 0.0.15
+- fixed po Files encoding and headers
+  (patch provided by Ville Skyttä)
+  
