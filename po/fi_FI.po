@@ -2,7 +2,7 @@
 # Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
 # This file is distributed under the same license as the VDR package.
 # Hannu Savolainen <hannu@opensound.com>, 2002
-# Jaakko Hyv�tti <jaakko@hyvatti.iki.fi>, 2002
+# Jaakko Hyvätti <jaakko@hyvatti.iki.fi>, 2002
 # Niko Tarnanen <niko.tarnanen@hut.fi>, 2003
 # Rolf Ahrenberg <rahrenbe@cc.hut.fi>, 2003
 #
@@ -13,10 +13,10 @@ msgstr ""
 "POT-Creation-Date: 2012-03-11 13:37+0100\n"
 "PO-Revision-Date: 2008-03-08 22:17+0100\n"
 "Last-Translator: Rolf Ahrenberg <rahrenbe@cc.hut.fi>\n"
-"Language-Team: <vdr@linuxtv.org>\n"
-"Language: \n"
+"Language-Team: Finnish <vdr@linuxtv.org>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Takes screenshots"

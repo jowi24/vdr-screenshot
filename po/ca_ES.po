@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the VDR package.
 # Marc Rovira Vall <tm05462@salleURL.edu>, 2003
 # Ramon Roca <ramon.roca@xcombo.com>, 2003
-# Jordi Vil� <jvila@tinet.org>, 2003
+# Jordi Vilà <jvila@tinet.org>, 2003
 #
 msgid ""
 msgstr ""
@@ -11,11 +11,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: <vdr@joachim-wilke.de>\n"
 "POT-Creation-Date: 2012-03-11 13:37+0100\n"
 "PO-Revision-Date: 2008-03-08 22:17+0100\n"
-"Last-Translator: Jordi Vil� <jvila@tinet.org>\n"
-"Language-Team: <vdr@linuxtv.org>\n"
-"Language: \n"
+"Last-Translator: Jordi Vilà <jvila@tinet.org>\n"
+"Language-Team: Catalan <vdr@linuxtv.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Takes screenshots"
