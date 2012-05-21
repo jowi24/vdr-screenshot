@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: VDR 1.5.7\n"
 "Report-Msgid-Bugs-To: <vdr@joachim-wilke.de>\n"
 "POT-Creation-Date: 2012-03-11 13:37+0100\n"
-"PO-Revision-Date: 2008-03-08 22:17+0100\n"
-"Last-Translator: Rolf Ahrenberg <rahrenbe@cc.hut.fi>\n"
+"PO-Revision-Date: 2012-05-20 23:55+0200\n"
+"Last-Translator: Ville Skyttä <ville.skytta@iki.fi>\n"
 "Language-Team: Finnish <vdr@linuxtv.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Takes screenshots"
-msgstr "Kuvakaappaari"
+msgstr "Kuvakaappari"
 
 msgid "Screenshot"
 msgstr "Kuvakaappaus"
@@ -41,10 +41,10 @@ msgid "Image quality (1-100)"
 msgstr "Kuvanlaatu (0-100)"
 
 msgid "Image width (Pixel)"
-msgstr ""
+msgstr "Kuvan leveys (pikseliä)"
 
 msgid "Image height (Pixel)"
-msgstr ""
+msgstr "Kuvan korkeus (pikseliä)"
 
 msgid "No. of pictures to take"
 msgstr "Kerralla otettavien kuvien lukumäärä"
@@ -53,10 +53,11 @@ msgid "Hide mainmenu entry"
 msgstr "Piilota valinta päävalikosta"
 
 msgid "Show Date"
-msgstr ""
+msgstr "Näytä päivämäärä"
 
 msgid "Enable delayed shooting"
-msgstr ""
+msgstr "Käytä viivästettyä kaappausta"
 
 msgid "Delayed shooting active."
-msgstr ""
+msgstr "Viivästetty kaappaus aktiivinen."
+
