@@ -21,23 +21,26 @@ msgstr ""
 "X-Poedit-Country: ITALY\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-msgid "Takes screenshots"
-msgstr "Cattura schermate"
+msgid "Delayed shooting active."
+msgstr "Attivata cattura differita"
 
-msgid "Screenshot"
-msgstr "Cattura schermo"
-
-msgid "OK - Images saved."
-msgstr "OK - Immagini salvate"
+msgid "Enable delayed shooting"
+msgstr "Abilita cattura differita"
 
 msgid "Error"
 msgstr "Errore"
 
+msgid "Fileformat"
+msgstr "Formato immagine"
+
+msgid "Hide mainmenu entry"
+msgstr "Nascondi voce menu principale"
+
 msgid "Image directory"
 msgstr "Directory immagini"
 
-msgid "Fileformat"
-msgstr "Formato immagine"
+msgid "Image height (Pixel)"
+msgstr "Altezza immagine (Pixel)"
 
 msgid "Image quality (1-100)"
 msgstr "Qualità immagine (1-100)"
@@ -45,20 +48,17 @@ msgstr "Qualità immagine (1-100)"
 msgid "Image width (Pixel)"
 msgstr "Larghezza immagine (Pixel)"
 
-msgid "Image height (Pixel)"
-msgstr "Altezza immagine (Pixel)"
-
 msgid "No. of pictures to take"
 msgstr "Numero immagini da catturare"
 
-msgid "Hide mainmenu entry"
-msgstr "Nascondi voce menu principale"
+msgid "OK - Images saved."
+msgstr "OK - Immagini salvate"
+
+msgid "Screenshot"
+msgstr "Cattura schermo"
 
 msgid "Show Date"
 msgstr "Mostra data"
 
-msgid "Enable delayed shooting"
-msgstr "Abilita cattura differita"
-
-msgid "Delayed shooting active."
-msgstr "Attivata cattura differita"
+msgid "Takes screenshots"
+msgstr "Cattura schermate"

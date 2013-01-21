@@ -16,23 +16,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Takes screenshots"
-msgstr "Ver Imagenes"
+msgid "Delayed shooting active."
+msgstr ""
 
-msgid "Screenshot"
-msgstr "Capturas"
-
-msgid "OK - Images saved."
-msgstr "Ok - Imagenes guardad"
+msgid "Enable delayed shooting"
+msgstr ""
 
 msgid "Error"
 msgstr "Error"
 
+msgid "Fileformat"
+msgstr "Formato imagen"
+
+msgid "Hide mainmenu entry"
+msgstr "Ocultar entrada en el menu"
+
 msgid "Image directory"
 msgstr "Directorio de imagenes"
 
-msgid "Fileformat"
-msgstr "Formato imagen"
+msgid "Image height (Pixel)"
+msgstr "Alto imagen"
 
 msgid "Image quality (1-100)"
 msgstr "Calidad de imagen (1-100)"
@@ -40,20 +43,17 @@ msgstr "Calidad de imagen (1-100)"
 msgid "Image width (Pixel)"
 msgstr "Ancho imagen (pixels)"
 
-msgid "Image height (Pixel)"
-msgstr "Alto imagen"
-
 msgid "No. of pictures to take"
 msgstr "Nº de fotos a coger"
 
-msgid "Hide mainmenu entry"
-msgstr "Ocultar entrada en el menu"
+msgid "OK - Images saved."
+msgstr "Ok - Imagenes guardad"
+
+msgid "Screenshot"
+msgstr "Capturas"
 
 msgid "Show Date"
 msgstr ""
 
-msgid "Enable delayed shooting"
-msgstr ""
-
-msgid "Delayed shooting active."
-msgstr ""
+msgid "Takes screenshots"
+msgstr "Ver Imagenes"

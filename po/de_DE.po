@@ -16,23 +16,26 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-15\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Takes screenshots"
-msgstr "erstellt Bildschirmfotos"
+msgid "Delayed shooting active."
+msgstr "Verzögertes Auslösen aktiviert."
 
-msgid "Screenshot"
-msgstr "Bildschirmfoto"
-
-msgid "OK - Images saved."
-msgstr "OK - Bilder gespeichert."
+msgid "Enable delayed shooting"
+msgstr "Verzögertes Auslösen aktivieren"
 
 msgid "Error"
 msgstr "Fehler"
 
+msgid "Fileformat"
+msgstr "Bildformat"
+
+msgid "Hide mainmenu entry"
+msgstr "Menueintrag ausblenden"
+
 msgid "Image directory"
 msgstr "Bilderverzeichnis"
 
-msgid "Fileformat"
-msgstr "Bildformat"
+msgid "Image height (Pixel)"
+msgstr "Bildhöhe (Pixel)"
 
 msgid "Image quality (1-100)"
 msgstr "Bildqualität (1-100)"
@@ -40,20 +43,17 @@ msgstr "Bildqualität (1-100)"
 msgid "Image width (Pixel)"
 msgstr "Bildbreite (Pixel)"
 
-msgid "Image height (Pixel)"
-msgstr "Bildhöhe (Pixel)"
-
 msgid "No. of pictures to take"
 msgstr "Anzahl der aufzunehmenden Bilder"
 
-msgid "Hide mainmenu entry"
-msgstr "Menueintrag ausblenden"
+msgid "OK - Images saved."
+msgstr "OK - Bilder gespeichert."
+
+msgid "Screenshot"
+msgstr "Bildschirmfoto"
 
 msgid "Show Date"
 msgstr "Datum einblenden"
 
-msgid "Enable delayed shooting"
-msgstr "Verzögertes Auslösen aktivieren"
-
-msgid "Delayed shooting active."
-msgstr "Verzögertes Auslösen aktiviert."
+msgid "Takes screenshots"
+msgstr "erstellt Bildschirmfotos"

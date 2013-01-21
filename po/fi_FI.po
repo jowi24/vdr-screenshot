@@ -19,23 +19,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Takes screenshots"
-msgstr "Kuvakaappari"
+msgid "Delayed shooting active."
+msgstr "Viivästetty kaappaus aktiivinen."
 
-msgid "Screenshot"
-msgstr "Kuvakaappaus"
-
-msgid "OK - Images saved."
-msgstr "Kuva otettu."
+msgid "Enable delayed shooting"
+msgstr "Käytä viivästettyä kaappausta"
 
 msgid "Error"
 msgstr "Kuvan ottamien epäonnistui!"
 
+msgid "Fileformat"
+msgstr "Kuvaformaatti"
+
+msgid "Hide mainmenu entry"
+msgstr "Piilota valinta päävalikosta"
+
 msgid "Image directory"
 msgstr "Tallennushakemisto"
 
-msgid "Fileformat"
-msgstr "Kuvaformaatti"
+msgid "Image height (Pixel)"
+msgstr "Kuvan korkeus (pikseliä)"
 
 msgid "Image quality (1-100)"
 msgstr "Kuvanlaatu (0-100)"
@@ -43,21 +46,17 @@ msgstr "Kuvanlaatu (0-100)"
 msgid "Image width (Pixel)"
 msgstr "Kuvan leveys (pikseliä)"
 
-msgid "Image height (Pixel)"
-msgstr "Kuvan korkeus (pikseliä)"
-
 msgid "No. of pictures to take"
 msgstr "Kerralla otettavien kuvien lukumäärä"
 
-msgid "Hide mainmenu entry"
-msgstr "Piilota valinta päävalikosta"
+msgid "OK - Images saved."
+msgstr "Kuva otettu."
+
+msgid "Screenshot"
+msgstr "Kuvakaappaus"
 
 msgid "Show Date"
 msgstr "Näytä päivämäärä"
 
-msgid "Enable delayed shooting"
-msgstr "Käytä viivästettyä kaappausta"
-
-msgid "Delayed shooting active."
-msgstr "Viivästetty kaappaus aktiivinen."
-
+msgid "Takes screenshots"
+msgstr "Kuvakaappari"

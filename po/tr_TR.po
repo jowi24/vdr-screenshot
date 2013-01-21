@@ -16,23 +16,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Takes screenshots"
-msgstr "Ekran resimi çeker"
+msgid "Delayed shooting active."
+msgstr "Gecikmeli çekim aktif"
 
-msgid "Screenshot"
-msgstr "Ekran resimi"
-
-msgid "OK - Images saved."
-msgstr "Tamam - Resimler kayýtlandý"
+msgid "Enable delayed shooting"
+msgstr "Gecikmeli çekimi aktiflestir"
 
 msgid "Error"
 msgstr "Hata"
 
+msgid "Fileformat"
+msgstr "Belge biçimi"
+
+msgid "Hide mainmenu entry"
+msgstr "na menüde sakla"
+
 msgid "Image directory"
 msgstr "Resim klasörü"
 
-msgid "Fileformat"
-msgstr "Belge biçimi"
+msgid "Image height (Pixel)"
+msgstr "Resim yüksekliði"
 
 msgid "Image quality (1-100)"
 msgstr "Resim kalitesi"
@@ -40,20 +43,17 @@ msgstr "Resim kalitesi"
 msgid "Image width (Pixel)"
 msgstr "Resim geniþliði"
 
-msgid "Image height (Pixel)"
-msgstr "Resim yüksekliði"
-
 msgid "No. of pictures to take"
 msgstr "Çekilecek resimlerin sayýsý"
 
-msgid "Hide mainmenu entry"
-msgstr "na menüde sakla"
+msgid "OK - Images saved."
+msgstr "Tamam - Resimler kayýtlandý"
+
+msgid "Screenshot"
+msgstr "Ekran resimi"
 
 msgid "Show Date"
 msgstr "Tarihi göster"
 
-msgid "Enable delayed shooting"
-msgstr "Gecikmeli çekimi aktiflestir"
-
-msgid "Delayed shooting active."
-msgstr "Gecikmeli çekim aktif"
+msgid "Takes screenshots"
+msgstr "Ekran resimi çeker"
