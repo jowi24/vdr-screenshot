@@ -124,7 +124,11 @@ VDR Plugin 'screenshot' Revision History
 - fixed COPYING (reported by Martin Gansser)
 - fixed compiler warnings
   
-: Version 0.0.15
+2013-01-26: Version 0.0.15
 - fixed po Files encoding and headers
   (patch provided by Ville Skyttä)
-  
+- update finish translation  
+  (update provided by Ville Skyttä)
+- Update Makefile to work with VDR >= 1.7.34
+  For older VDR versions, use the old Makefile, available as Makefile.pre.1.7.34
+  in the plugin directory
