@@ -58,10 +58,15 @@ void cThreadScreenshot::Action(void) {
         Skins.Flush();
     }
 */
+    int	iResY = screenshotConfig.iResY;
+    if( iResY == 0 )
+    {
+	iResY = screenshotConfig.iResX / (1.25 * Setup.OSDAspect);
+    }
     isOk = cDevice::PrimaryDevice()->GrabImageFile(fileName, screenshotConfig.iFileformat, 
                                                              screenshotConfig.iQuality, 
 							     screenshotConfig.iResX, 
-							     screenshotConfig.iResY);
+							     iResY);
     i++;
   }
 
@@ -74,11 +79,11 @@ void cThreadScreenshot::Action(void) {
   if (isOk) {
     isyslog("screenshot: %d image%s saved", screenshotConfig.iNoOfPics, (screenshotConfig.iNoOfPics > 1) ? "s" : "");
     const char *tmp = tr(screenshotConfig.iNoOfPics > 1 ? "OK - Images saved." : "OK - Image saved.");
-    Skins.Message(mtInfo, tmp);
+    Skins.QueueMessage(mtInfo, tmp);
     Skins.Flush();      
   } else {
     esyslog("screenshot: error calling GrabImage(...)");
-    Skins.Message(mtError, tr("Error"));
+    Skins.QueueMessage(mtError, tr("Error"));
     Skins.Flush();
   }
 
@@ -174,7 +179,7 @@ cMenuSetupScreenshot::cMenuSetupScreenshot(void) {
   Add(new cMenuEditStraItem (tr("Fileformat"),              &iNewFileformat, 2, FILEFORMATS));
   Add(new cMenuEditIntItem  (tr("Image quality (1-100)"),   &iNewQuality, 1, 100));
   Add(new cMenuEditIntItem  (tr("Image width (Pixel)"),     &iNewResX, 1, 768));
-  Add(new cMenuEditIntItem  (tr("Image height (Pixel)"),    &iNewResY, 1, 576));
+  Add(new cMenuEditIntItem  (tr("Image height (Pixel)"),    &iNewResY, 0, 576));
   Add(new cMenuEditIntItem  (tr("No. of pictures to take"), &iNewNoOfPics, 1, 100));
   Add(new cMenuEditBoolItem (tr("Hide mainmenu entry"),     &iNewHideMenuEntry));
 //  Add(new cMenuEditBoolItem (tr("Hide OSD"),                &iNewHideOsd));
@@ -236,7 +241,7 @@ const char *cPluginScreenshot::MainMenuEntry(void) {
 cOsdObject *cPluginScreenshot::MainMenuAction(void) {
   if (screenshotConfig.iDelayed && muteCounter < 2) {
     delayActive = true;
-    Skins.Message(mtInfo, tr("Delayed shooting active."));
+    Skins.QueueMessage(mtInfo, tr("Delayed shooting active."));
     Skins.Flush();
   } else {
     muteCounter = 0;
