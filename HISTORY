@@ -132,3 +132,9 @@ VDR Plugin 'screenshot' Revision History
 - Update Makefile to work with VDR >= 1.7.34
   For older VDR versions, use the old Makefile, available as Makefile.pre.1.7.34
   in the plugin directory
+
+2014-12-11: Version 0.0.16
+- more flexible scaling of screenshots, set height=0 to honor aspect ratio 
+  (patch provided by zimuland)
+  
+  
